@@ -8,7 +8,9 @@ sudo apt-get install xscreensaver xscreensaver-gl-extra xscreensaver-data-extra
 sudo apt-get remove gnome-screensaver
 sudo apt-add-repository ppa:alexanderk23/ppa
 sudo apt-get update && sudo apt-get install gluqlo
+echo '\n'
 echo 'FOLLOW THE INSTRUCTIONS @ FILE COMMENTS TO COMPLETE INSTALLATION.'
+echo 'Enjoy this lovely screensaver! Inon ( https://github.com/inon84 )'
 
 # If you’re running Ubuntu 16.10 you can install the app manually using the Ubuntu 16.04 LTS package, which you can download directly from the PPA page and install using the Ubuntu Software app:
 # url: https://launchpad.net/~alexanderk23/+archive/ubuntu/ppa/+sourcepub/6731748/+listing-archive-extra
@@ -25,5 +27,3 @@ echo 'FOLLOW THE INSTRUCTIONS @ FILE COMMENTS TO COMPLETE INSTALLATION.'
 #    4. Reopen Screensaver and you should now be able to select the Gluqlo screensaver within the app
 #    5. Don’t forget to add XScreenSaver to your start-up applications to ensure that it launches after each and every reboot
 #
-echo 'Enjoy this lovely screensaver!'
-echo 'Inon (https://github.com/inon84)'
