@@ -19,8 +19,8 @@ echo 'FOLLOW THE INSTRUCTIONS @ FILE COMMENTS TO COMPLETE INSTALLATION.'
 #  Here you can choose to make Gluqlo your default screensaver.
 #  Don’t see it listed? Run:
 #    1. Open and edit ~./xscreensaver
-#    2. Add this line to Programs section in the file:
-#                           GL:  gluqlo  \n\
+#    2. Add the following line to Programs section in the file (without the "#" of course):
+#         GL:  gluqlo  \n\
 #    3. Save the file and open Screensaver from Unity Dash
 #    4. Reopen Screensaver and you should now be able to select the Gluqlo screensaver within the app
 #    5. Don’t forget to add XScreenSaver to your start-up applications to ensure that it launches after each and every reboot
