@@ -25,4 +25,5 @@ echo 'FOLLOW THE INSTRUCTIONS @ FILE COMMENTS TO COMPLETE INSTALLATION.'
 #    4. Reopen Screensaver and you should now be able to select the Gluqlo screensaver within the app
 #    5. Don’t forget to add XScreenSaver to your start-up applications to ensure that it launches after each and every reboot
 #
-# ENJOY! Inon
+echo 'Enjoy this lovely screensaver!'
+echo 'Inon (https://github.com/inon84)'
