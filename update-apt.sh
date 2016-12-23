@@ -1,23 +1,26 @@
 # Inon Moshkowitz 
 
 #RED='\033[0;31m' # Red Color
-#GREEN='\033[0;32m' # Green Color
-#BLUE='\033[0;34m' # Blue Color
-#NC='\033[0m' # No Color
-echo \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-echo ">> Started bash script for apt updates"
-echo ">> Cleaning"
+GREEN='\033[0;32m' # Green Color
+BLUE='\033[0;34m' # Blue Color
+NC='\033[0m' # No Color
+#echo \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+echo ">> ${BLUE}bash script for apt updates started${NC}"
+echo ">> ${BLUE}-----------------------------------${NC}"
+echo " "
 sudo apt clean
+echo ">> ${BLUE}Cleaning...${NC}"
 sudo apt autoclean
+echo ">> ${GREEN}done.${NC}"
 echo " "
-echo ">> Cleaning Done"
-echo ">> Updating"
+echo ">> ${BLUE}Updating...${NC}"
 sudo apt update
-echo ">> Updating done"
+echo ">> ${GREEN}done.${NC}"
 echo " "
-echo ">> Checking for upgrades"
+echo ">> ${BLUE}Checking for upgrades...${NC}"
 sudo apt upgrade
 echo " "
-echo "Script last executed at: " && date -R
-echo \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+echo "${BLUE}script last executed at:"
+date -R
+#echo ${NC}\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
